@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Darksouls';
+    src: url(fonts/Adobe\ Garamond\ Pro\ Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Optimus';
+    src: url(fonts/optimus.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'OptimusFina';
+    src: url(fonts/optimusFina.ttf) format('truetype');
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+body{
+    background-color: #292f3b;
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    background-image:linear-gradient(to bottom, #8b353c, #301418 ) ;
+    box-shadow: 0px 7px 15px #101318 ;
+    color: white;
+    min-height: 150px;
+    padding-top: 40px;
+    text-shadow: 1px 1px 3px #1d232caf;
+}
+
+header > h1 {
+    margin: 0px;
+    font-size: 3em;
+}
+
+header > p {
+    font-size: 1.2em;
+    margin: 0px 0px 0px 0px;
+    text-indent: 0px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+}
+nav > a {
+    border: 10px;
+    border-color: rgb(175, 7, 139);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a::after{
+    content: none;
+}
+
+nav > a:hover {
+    background-color: #7c585b;
+}
+
+img {
+    width: 100%;
+}
+
+.min {
+    width: 30px;
+    height: 30px;
+}
+
+a::after {
+    content: none;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 900px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0px 15px 15px #1d232c;
+}
+
+aside {
+    background-color: #79535b;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px #1d232c75;
+    max-width: 750px;
+    margin: 25px auto 25px auto;
+}
+
+aside > h3 {
+    background-color: #3c292d;
+    color: white;
+    padding: 5px;
+    text-indent: 10px; 
+    border-radius: 5px 5px 0px 0px;
+    margin: -10px -10px 0 -10px;
+}
+
+aside > ul {
+    padding: 0px;
+    list-style-type: '\1F5E1';
+    columns: 1;
+    list-style-position: inside;
+}
+
+#drops {
+    width: 390px;
+    height: 500px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#drops > img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Darksouls';
+    text-shadow: 1px 1px 3px #1d232c;
+    font-size: 2.4em;
+}
+
+h2 {
+    font-family: 'Optimus'; 
+    background-image: linear-gradient(to right, #ce391f, #FF7A22, rgb(255, 255, 255) 99%);
+    text-indent: 10px;
+    padding: 2px;
+    
+}
+p {
+    font-family: sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5em;
+}
+
+.subtitle{
+    text-align: center;
+    font-style: italic;
+}
+
+.up {
+    font-size: 1.15em;
+    font-family: 'Optimus'; 
+}
+
+img.center{
+    margin: auto;
+    display: block;
+}
+
+a {
+    color: #ce3e1a;
+    text-decoration: none;
+}
+
+main > a:visited {
+    color: #832812;
+}
+
+a:hover {
+    color: #DC1C1D;
+    background-color: #c9aeae;
+}
+
+a::after {
+    content: ' 👁️';
+}
+
+#bossfight{
+    background-color: #ce391f;
+    box-shadow: inset 0px 0px 15px #1d232c;
+    
+    
+    padding: 20px;
+    padding-bottom: 56%;
+    margin: auto -15px auto -15px;
+
+    position: relative;
+}   
+
+#bossfight > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#credits {
+    text-align: center;
+}
+
+footer > p {
+    background-color: #7c252d;
+    text-align: center;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 4px;
+}
+
+footer > p > a {
+    color: white;
+}
+
+footer > a:visited {
+    color: white;
+}
+
+footer > p > a::after {
+    content: none;
+}
