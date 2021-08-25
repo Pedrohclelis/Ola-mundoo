@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color: #292f3b;
+    background-color: #1a1e25;
     margin: 0px 0px 0px 0px;
 }
 
@@ -110,9 +110,10 @@ aside > h3 {
 
 aside > ul {
     padding: 0px;
-    list-style-type: '\1F5E1';
+    list-style-type: '\1F5E1  ';
     columns: 1;
     list-style-position: inside;
+    margin-left: 5px;
 }
 
 #drops {
